@@ -31,7 +31,7 @@ return {message:"some message", token:"eyJhbGciOi..."}
 #### POST /api/create
 ```js
 {
-    hearders: "authorization":"eyJhbGciOi..."
+    hearders: "authorization":"Bearer eyJhbGciOi..."
 },{
     title:""
     content:""
@@ -43,7 +43,7 @@ return {message:"some message", token:"eyJhbGciOi..."}
 #### GET /api/render
 ```js
 {
-    hearders: "authorization":"eyJhbGciOi..."
+    hearders: "authorization":"Bearer eyJhbGciOi..."
 }
 ```
 
@@ -54,7 +54,7 @@ return {message:"some message", token:"eyJhbGciOi..."}
 #### GET /api/render/one/title
 ```js
 {
-    hearders: "authorization":"eyJhbGciOi..."
+    hearders: "authorization":"Bearer eyJhbGciOi..."
 }
 ```
 
