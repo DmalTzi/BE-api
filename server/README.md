@@ -1,6 +1,6 @@
 
 ## Path
-#### /api/register
+#### POST /api/register
 ``` js
 {
     email:""
@@ -13,7 +13,7 @@
 
 
 
-####  /api/login
+#### POST /api/login
 ```js
 {
     email:""
@@ -25,7 +25,7 @@
 return {message:"some message", token:"eyJhbGciOi..."}
 ```
 
-#### /api/create
+#### POST /api/create
 ```js
 {
     hearders: "authorization":"eyJhbGciOi..."
@@ -37,7 +37,7 @@ return {message:"some message", token:"eyJhbGciOi..."}
 
 
 
-#### /api/render
+#### GET /api/render
 ```js
 {
     hearders: "authorization":"eyJhbGciOi..."
@@ -48,7 +48,7 @@ return {message:"some message", token:"eyJhbGciOi..."}
     return {object}
 ```
 
-#### /api/render/one/title
+#### GET /api/render/one/title
 ```js
 {
     hearders: "authorization":"eyJhbGciOi..."
