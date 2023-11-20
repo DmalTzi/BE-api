@@ -10,6 +10,9 @@
     nickname:""
 }
 ```
+```js
+return {message:"some message"}
+```
 
 
 
