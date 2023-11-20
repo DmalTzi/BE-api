@@ -1,34 +1,60 @@
 
 ## Path
 #### /api/register
-email
-password
-firstname
-lastname
-nickname
+``` js
+{
+    email:""
+    password:""
+    firstname:""
+    lastname:""
+    nickname:""
+}
+```
 
-return message
+
 
 ####  /api/login
-email
-password
+```js
+{
+    email:""
+    password:""
+}
+```
 
-return message, token
+```js
+return {message:"some message", token:"eyJhbGciOi..."}
+```
 
 #### /api/create
-hearders: "authorization":"token"
+```js
+{
+    hearders: "authorization":"eyJhbGciOi..."
+},{
+    title:""
+    content:""
+}
+```
 
-title
-content
 
-return message
 
 #### /api/render
-hearders: "authorization":"token"
+```js
+{
+    hearders: "authorization":"eyJhbGciOi..."
+}
+```
 
-return object
+```js
+    return {object}
+```
 
 #### /api/render/one/title
-hearders: "authorization":"token"
+```js
+{
+    hearders: "authorization":"eyJhbGciOi..."
+}
+```
 
-return object
+```js
+    return {object}
+```
